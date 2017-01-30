@@ -13,8 +13,9 @@ module.exports = {
 			exclude: /node_modules/
 		}]
 	},
+	devtool: "#inline-source-map",
 	devServer: {
 		port: 8000,
-		inline: true,
+		// inline: true,
 	},
 }
